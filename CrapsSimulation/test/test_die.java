@@ -8,7 +8,11 @@ class test_die
 	@Test
 	void test()
 	{
-		fail("Not yet implemented");
+		String testStaticString = "Die.testStatic()";
+		
+		Die testDie = new Die();
+		
+		assertEquals(testDie.testStatic(), testStaticString);
 	}
 
 }
